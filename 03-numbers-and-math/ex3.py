@@ -15,16 +15,16 @@ Math symbols for python:
 print("I will now count my chickens:")
 
 # Prints the string "hens" and the calculation of the sum, which is a floating point integer
-print("Hens", 25 + 30 / 6)
+print("Hens", 25.0 + 30.0 / 6.0)
 
 #Prints the string "Roosters" and the calculation of the sum, which is a floating point integer
-print("Roosters", 100 - 25 * 3 % 4)
+print("Roosters", 100.0 - 25.0 * 3.0 % 4.0)
 
 # Prints the string specified in the parenthesis
 print("Now I will count the eggs:")
 
 # Prints the calculation of the sum, which will be a floating point integer
-print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)
+print(3.0 + 2.0 + 1.0 - 5.0 + 4.0 % 2.0 - 1.0 / 4.0 + 6.0)
 
 # Prints the string specified in the parenthesis
 print("Is it true that 3 + 2 < 5 - 7?")
@@ -33,10 +33,10 @@ print("Is it true that 3 + 2 < 5 - 7?")
 print(3 + 2 < 5 - 7)
 
 # Prints the string followed by the answer to the sum given, which will be an integer
-print("What is 3 + 2?", 3 + 2)
+print("What is 3 + 2?", 3.0 + 2.0)
 
 # Prints the string followed by the answer to the sum given, which will be an integer
-print("What is 5 - 7?", 5 - 7)
+print("What is 5 - 7?", 5.0 - 7.0)
 
 # Prints the string specified in the parenthesis
 print("Oh that's why it's False.")
