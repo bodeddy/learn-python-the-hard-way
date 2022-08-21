@@ -4,7 +4,7 @@ Math symbols for python:
 - minus (subtraction)
 / slash (divide)
 * asterisk (multiply)
-% percent (percentage of)
+% percent (Modulo Operator)
 < less-than
 > greater-than
 <= less-than-equal
