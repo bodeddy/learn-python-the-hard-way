@@ -34,7 +34,7 @@ hilarious = False
 #A string variable with {} within it
 joke_evaluation = "Isn't that joke so funny?! {}"
 
-# A print function that takes the variable joke_evaluation, a format syntax, and the hilarious variable
+# A print function that takes the variable joke_evaluation, a format function, and the hilarious variable
 print(joke_evaluation.format(hilarious))
 
 # A string variable
@@ -44,4 +44,5 @@ w = "This is the left side of..."
 e = "a string with a right side."
 
 # A print function that concatenates the variable w and e
+# Using + brings the two strings together because it concatenates them.
 print(w + e)
