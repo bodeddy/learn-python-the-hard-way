@@ -11,6 +11,7 @@ binary = "binary"
 do_not = "don't"
 
 # Another f-string variable
+# String inside a string
 y = f"Those who know {binary} and those who {do_not}."
 
 # A print function that takes the variable x
@@ -20,9 +21,11 @@ print(x)
 print(y)
 
 # A print function that takes an f-string and the x variable within that f-string
+# String inside a string
 print(f"I said: {x}")
 
 # A print function that takes an f-string and the y variable within that f-string
+# String inside a string
 print(f"I also said: '{y}'")
 
 # A boolean variable - I didn't realise variables could take True or False
